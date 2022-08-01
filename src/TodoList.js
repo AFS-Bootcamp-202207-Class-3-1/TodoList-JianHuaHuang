@@ -16,7 +16,7 @@ export default function TodoList(){
     return (
         <>
         <MsgContext.Provider value={{inputContentList,onAddTodoListCallBack}}>
-        <TodoListGroup inputContentList={inputContentList} />
+        <TodoListGroup/>
         <TodoListGenerator/>
         </MsgContext.Provider>
         </>

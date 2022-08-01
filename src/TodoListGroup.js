@@ -1,9 +1,8 @@
 import TodoListItem from "./TodoListItem";
-import  {useContext} from 'react'
-import {MsgContext} from './TodoList'
-export default function TodoListGroup(){
-    const {inputContentList} = useContext(MsgContext)
-    // const {inputContentList}=props
+
+import {connect} from 'react-redux'
+function TodoListGroup(props){
+    const {inputContentList}=props
     console.log("list",inputContentList ,typeof inputContentList)
     return (
         <>
@@ -13,3 +12,12 @@ export default function TodoListGroup(){
         </>
     )
 }
+
+
+const mapStateToProps = (state) => {
+    return {
+        inputContentList: state.inputTodoList
+    }
+}
+// export default TodoListGroup
+export default connect(mapStateToProps)(TodoListGroup)

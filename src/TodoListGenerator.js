@@ -1,12 +1,16 @@
 
-import {useState,useContext} from 'react'
+import {useState} from 'react'
 
-import {MsgContext} from './TodoList'
-export default function TodoListGenerator(){
-    const {onAddTodoListCallBack}=useContext(MsgContext);
+// import {MsgContext} from './TodoList'
+
+import {connect} from 'react-redux'
+function TodoListGenerator(props){
+    // const {onAddTodoListCallBack}=useContext(MsgContext);
     const [inputContent,setInputContent]=useState("")
+    const {addTodoContentToList} = props
     const onAddClick=()=>{
-        onAddTodoListCallBack(inputContent);
+        // onAddTodoListCallBack(inputContent);
+        addTodoContentToList(inputContent);
     }
     
     return (
@@ -18,3 +22,22 @@ export default function TodoListGenerator(){
         </>
     )
 }
+
+
+const mapStateToProps = (state) => {
+    return {
+        inputTodoList: state.inputTodoList
+    }
+}
+
+const mapDispatchToProps = (dispatch) => {
+    return {
+        addTodoContentToList(inputContent){
+            const action = {type: 'addTodoContentToList', value: inputContent}
+            dispatch(action)
+        }
+    }
+}
+
+// export default TodoListGenerator
+export default connect(mapStateToProps, mapDispatchToProps)(TodoListGenerator)

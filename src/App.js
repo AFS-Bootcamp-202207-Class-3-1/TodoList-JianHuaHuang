@@ -4,9 +4,9 @@ import TodoList from './features/todoList/TodoList';
 function App() {
   return (
     <div className="App">
-        <p>
+        <h1>
           TodoList
-        </p>
+        </h1>
         <TodoList/>
     </div>
   );

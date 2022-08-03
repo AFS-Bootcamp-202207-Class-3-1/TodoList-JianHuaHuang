@@ -4,7 +4,8 @@ import { useEffect } from "react";
 import {getTodos} from "../../api/todoApi.js"
 import { useDispatch } from "react-redux";
 import { initInputContentList } from "./todoListSlice";
-function TodoListGroup(){
+function TodoListGroup(props){
+    const {isShowCallBack}=props;
     const inputContentList=useSelector(state=>state.todoList.inputContentList)
     console.log("list",inputContentList ,typeof inputContentList)
     const dispatch=useDispatch();
@@ -22,7 +23,7 @@ function TodoListGroup(){
     return (
         <>
         {
-            inputContentList.map((item,index)=><TodoListItem key={item.id} item={item} />)
+            inputContentList.map((item,index)=><TodoListItem isShowCallBack={isShowCallBack} key={item.id} item={item} />)
         }
         </>
     )

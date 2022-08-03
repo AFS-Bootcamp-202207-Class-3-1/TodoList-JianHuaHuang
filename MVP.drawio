@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-08-03T11:26:32.389Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="_Hrppba5JZFos_Sm-sCM" version="20.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-03T11:26:57.857Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="xrpI_A8TKMA_ha1ybmQQ" version="20.2.2" type="github">
   <diagram id="xvUX5qQLCBp6dpglBEQe" name="Page-1">
-    <mxGraphModel dx="2740" dy="563" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3969" dy="1229" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -278,7 +278,7 @@
           <mxGeometry x="270" y="450" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="tEKggc_TftKG10XTZEe7-78" value="&lt;div style=&quot;margin: 0px; padding: 0px; font-family: &amp;quot;PingFang SC&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; font-size: 14px; text-align: left; background-color: rgb(238, 238, 238);&quot; data-slate-key=&quot;bnymH&quot; data-slate-node=&quot;element&quot; class=&quot;slate-element-paragraph slate-block ng-star-inserted&quot;&gt;&lt;span style=&quot;margin: 0px; padding: 0px;&quot; data-slate-node=&quot;text&quot; class=&quot;ng-star-inserted&quot;&gt;瀑布开发缺点：&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;margin: 0px; padding: 0px; font-family: &amp;quot;PingFang SC&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; font-size: 14px; text-align: left; background-color: rgb(238, 238, 238);&quot; data-slate-key=&quot;bnymH&quot; data-slate-node=&quot;element&quot; class=&quot;slate-element-paragraph slate-block ng-star-inserted&quot;&gt;&lt;span style=&quot;margin: 0px; padding: 0px;&quot; data-slate-node=&quot;text&quot; class=&quot;ng-star-inserted&quot;&gt;1.各个阶段的划分完全固定，阶段之间产生大量的文档，极大地增加了工作量。&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;margin: 0px; padding: 0px; font-family: &amp;quot;PingFang SC&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; font-size: 14px; text-align: left; background-color: rgb(238, 238, 238);&quot; data-slate-key=&quot;SBHNH&quot; data-slate-node=&quot;element&quot; class=&quot;slate-element-paragraph slate-block ng-star-inserted&quot;&gt;&lt;span style=&quot;margin: 0px; padding: 0px;&quot; data-slate-node=&quot;text&quot; class=&quot;ng-star-inserted&quot;&gt;2.由于开发模型是线性的，用户只有等到整个过程的末期才能见到开发成果，从而增加了开发风险。&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;margin: 0px; padding: 0px; font-family: &amp;quot;PingFang SC&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; font-size: 14px; text-align: left; background-color: rgb(238, 238, 238);&quot; data-slate-key=&quot;KAMZR&quot; data-slate-node=&quot;element&quot; class=&quot;slate-element-paragraph slate-block ng-star-inserted&quot;&gt;&lt;span style=&quot;margin: 0px; padding: 0px;&quot; data-slate-node=&quot;text&quot; class=&quot;ng-star-inserted&quot;&gt;3.通过过多的强制完成日期和里程碑来跟踪各个项目阶段。&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;margin: 0px; padding: 0px; font-family: &amp;quot;PingFang SC&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; font-size: 14px; text-align: left; background-color: rgb(238, 238, 238);&quot; data-slate-key=&quot;paPQi&quot; data-slate-node=&quot;element&quot; class=&quot;slate-element-paragraph slate-block ng-star-inserted&quot;&gt;&lt;span style=&quot;margin: 0px; padding: 0px;&quot; data-slate-node=&quot;text&quot; class=&quot;ng-star-inserted&quot;&gt;4.瀑布模型的突出缺点是不适应用户需求的变化。&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-860" y="1350" width="640" height="100" as="geometry" />
+          <mxGeometry x="-810" y="1190" width="640" height="100" as="geometry" />
         </mxCell>
         <mxCell id="tEKggc_TftKG10XTZEe7-79" value="规模化" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="270" y="200" width="120" height="60" as="geometry" />
@@ -324,10 +324,10 @@
           <mxGeometry x="-770" y="355" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="tEKggc_TftKG10XTZEe7-105" value="&lt;div&gt;What is MVP？&lt;br&gt;&lt;/div&gt;&lt;div&gt;MVP （最小化可实行产品，Minimum Viable Product）是 Eric Ries 在《精益创业》中关于「精益创业」（Lean Startup）的核心思想，意思是用最快、最简明的方式建立一个可用的产品原型，&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;通过这个最简单的原型来测试产品是否符合市场预期，并通过不断的快速迭代来修正产品，最终适应市场需求。&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-1070" y="1115" width="1040" height="70" as="geometry" />
+          <mxGeometry x="-1040" y="990" width="1040" height="70" as="geometry" />
         </mxCell>
         <mxCell id="tEKggc_TftKG10XTZEe7-106" value="When do we need it ?•&lt;br&gt;1.需求不明确&lt;br&gt;2.市场需求多变&lt;br&gt;3.前期定位，团队初创&lt;br&gt;4.需要可持续交付" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-800" y="1230" width="140" height="90" as="geometry" />
+          <mxGeometry x="-660" y="1070" width="140" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

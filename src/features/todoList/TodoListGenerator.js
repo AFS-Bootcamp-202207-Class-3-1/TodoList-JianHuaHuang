@@ -2,17 +2,17 @@ import { useState } from "react";
 import { useDispatch } from "react-redux";
 import { updateInputContentList } from "./todoListSlice";
 import "./todoListGeneratorCss.css";
+import { createTodos } from "../../api/todoApi";
 function TodoListGenerator() {
   const [inputContent, setInputContent] = useState("");
   const [buttonDisabled, setButtonDisabled] = useState(true);
   const dispatch = useDispatch();
   const onAddClick = () => {
-    const data = {
-      id: new Date(),
-      text: inputContent,
-      done: false,
-    };
-    dispatch(updateInputContentList(data));
+    createTodos(inputContent).then(response=>{
+      console.log("createTodos response",response)
+      const {data}=response;
+      dispatch(updateInputContentList(data));
+    })
     setInputContent("");
     setButtonDisabled(true);
   };
@@ -36,7 +36,6 @@ function TodoListGenerator() {
             value={inputContent}
             onChange={onChangeInputContent}
           />
-          {/* <div className="underline"></div> */}
           <label htmlFor="inputTodoList">请输入TodoList的内容 : </label>
         </div>
         <button

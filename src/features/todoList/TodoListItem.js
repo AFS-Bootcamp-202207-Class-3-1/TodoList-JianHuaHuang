@@ -1,16 +1,28 @@
 import { useDispatch } from "react-redux";
 import { updateInputContent, deleteInputContent } from "./todoListSlice";
+// import { focusUpdateAll } from "./todoListSlice";
+import { updateTodosToDone,deleteTodos } from "../../api/todoApi";
 import "./todoList.css";
 export default function TodoListItem(props) {
-  const { item, index } = props;
+  const { item } = props;
   const dispatch = useDispatch();
   const onClickX = (event) => {
     event.preventDefault();
-    dispatch(deleteInputContent({ index }));
+    deleteTodos(item.id).then(response=>{
+        console.log("TodoListItem deleteTodos",response)
+        // dispatch(focusUpdateAll());
+         dispatch(deleteInputContent({id:item.id}));
+    })
+    
   };
   const onClickItem = (event) => {
     event.preventDefault();
-    dispatch(updateInputContent({ index }));
+
+    updateTodosToDone(item.id,{...item,done:!item.done}).then(response=>{
+      console.log("TodoListItem updateTodosToDone",response)
+      // dispatch(focusUpdateAll());
+      dispatch(updateInputContent({id:item.id}))
+  })
   };
   return (
     <>

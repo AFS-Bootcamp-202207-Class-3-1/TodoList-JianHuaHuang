@@ -16,18 +16,28 @@ export const todoListSlice= createSlice({
         },
         updateInputContent:(state,action)=>{
             console.log("updateInputContent" ,state ,action)
-            const {index}=action.payload
+            const {id}=action.payload
+            const index=state.inputContentList.findIndex(inputContent=>inputContent.id===id);
             state.inputContentList[index].done=!state.inputContentList[index].done
 
         },
         deleteInputContent:(state,action)=>{
             console.log("deleteInputContent" ,state ,action)
-            const {index}=action.payload
+            const {id}=action.payload
+            const index=state.inputContentList.findIndex(inputContent=>inputContent.id===id);
             state.inputContentList.splice(index, 1)　
+        },
+        initInputContentList:(state,action)=>{
+            console.log("initInputContentList",state,action)
+            state.inputContentList=action.payload;
+            // return {...state}
+        },
+        focusUpdateAll:(state,action)=>{
+            return {...state}
         }
 
     }
 
 })
-export const {updateInputContentList,updateInputContent,deleteInputContent}=todoListSlice.actions;
+export const {initInputContentList,updateInputContentList,updateInputContent,deleteInputContent,focusUpdateAll}=todoListSlice.actions;
 export default todoListSlice.reducer;

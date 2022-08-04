@@ -17,7 +17,6 @@ function TodoListGroup(props){
             const {data}=response;
             dispatch(initInputContentList(data))
         });
-
     },[dispatch])
 
     return (

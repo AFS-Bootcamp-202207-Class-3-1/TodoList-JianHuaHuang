@@ -2,21 +2,26 @@ import api from "./api";
 
 const getTodos=()=>{
 
-    return api.get("/todos2");
+    return api.get("/todos");
 }
 const createTodos=(text)=>{
 
-    return api.post("/todos2",{text});
+    return api.post("/todos",{text});
 }
 
 const updateTodosToDone=(id,item)=>{
 
-    return api.put(`/todos2/${id}`,{...item});
+    return api.put(`/todos/${id}`,{...item});
 }
 
 const deleteTodos=(id)=>{
 
-    return api.delete(`/todos2/${id}`);
+    return api.delete(`/todos/${id}`);
 }
 
-export {getTodos,createTodos,updateTodosToDone,deleteTodos}
+const updateTodosText=(id,item)=>{
+
+    return api.put(`/todos/${id}`,{...item});
+}
+
+export {getTodos,createTodos,updateTodosToDone,deleteTodos,updateTodosText}

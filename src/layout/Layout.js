@@ -1,7 +1,9 @@
 import { Outlet, NavLink } from "react-router-dom";
 import "./layout.css";
+
 // import { Button } from 'antd';
 // const { Header, Content, Footer } = Layout;
+
 let activeStyle = {
     fontWeight: "bold",
     color: "red",
@@ -19,6 +21,7 @@ export default function Layout() {
           justifyContent: "space-around",
           width: "100%",
           marginBottom: "30px",
+          fontSize: "medium"
         }}
       >
         <NavLink

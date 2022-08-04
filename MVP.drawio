@@ -1,32 +1,333 @@
-<mxfile host="app.diagrams.net" modified="2022-08-03T02:25:15.750Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="iy-6G86gYoLxbrMRy-Qt" version="20.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-03T11:26:57.857Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="xrpI_A8TKMA_ha1ybmQQ" version="20.2.2" type="github">
   <diagram id="xvUX5qQLCBp6dpglBEQe" name="Page-1">
-    <mxGraphModel dx="1422" dy="761" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3969" dy="1229" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Z29zKsFdyH_NHhmtxofu-5" value="Focus Question ：What is the MVP&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="215" y="90" width="365" height="60" as="geometry" />
+        <mxCell id="tEKggc_TftKG10XTZEe7-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Z29zKsFdyH_NHhmtxofu-5" target="tEKggc_TftKG10XTZEe7-9">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Z29zKsFdyH_NHhmtxofu-6" value="客户" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="450" y="270" width="120" height="60" as="geometry" />
+        <mxCell id="Z29zKsFdyH_NHhmtxofu-5" value="Focus Question ：What is the MVP&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-322.5" y="80" width="365" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Z29zKsFdyH_NHhmtxofu-7" value="产品原型" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="180" y="260" width="120" height="60" as="geometry" />
+        <mxCell id="tEKggc_TftKG10XTZEe7-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Z29zKsFdyH_NHhmtxofu-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="30" y="850" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="Z29zKsFdyH_NHhmtxofu-8" value="测试" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="270" y="400" width="120" height="60" as="geometry" />
+        <mxCell id="tEKggc_TftKG10XTZEe7-22" value="使用" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="tEKggc_TftKG10XTZEe7-21">
+          <mxGeometry x="0.2634" y="-3" relative="1" as="geometry">
+            <mxPoint x="11" y="3" as="offset" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="Z29zKsFdyH_NHhmtxofu-9" value="反馈" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="470" y="390" width="120" height="60" as="geometry" />
+        <mxCell id="tEKggc_TftKG10XTZEe7-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Z29zKsFdyH_NHhmtxofu-6" target="tEKggc_TftKG10XTZEe7-19">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="170" y="940" />
+              <mxPoint x="70" y="940" />
+            </Array>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="Z29zKsFdyH_NHhmtxofu-10" value="潜在用户需求" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="80" y="390" width="120" height="60" as="geometry" />
+        <mxCell id="tEKggc_TftKG10XTZEe7-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Z29zKsFdyH_NHhmtxofu-6" target="tEKggc_TftKG10XTZEe7-51">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Z29zKsFdyH_NHhmtxofu-12" value="产品价值" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="410" y="520" width="120" height="60" as="geometry" />
+        <mxCell id="Z29zKsFdyH_NHhmtxofu-6" value="客户或用户群体" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="110" y="820" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Z29zKsFdyH_NHhmtxofu-13" value="软件产品" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="150" y="550" width="120" height="60" as="geometry" />
+        <mxCell id="tEKggc_TftKG10XTZEe7-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="tEKggc_TftKG10XTZEe7-1" target="tEKggc_TftKG10XTZEe7-79">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tEKggc_TftKG10XTZEe7-1" value="瀑布式开发" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tEKggc_TftKG10XTZEe7-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="tEKggc_TftKG10XTZEe7-6" target="tEKggc_TftKG10XTZEe7-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tEKggc_TftKG10XTZEe7-13" value="推进" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="tEKggc_TftKG10XTZEe7-11">
+          <mxGeometry x="-0.3016" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tEKggc_TftKG10XTZEe7-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tEKggc_TftKG10XTZEe7-6" target="tEKggc_TftKG10XTZEe7-17">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-150" y="770" />
+              <mxPoint x="-35" y="770" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tEKggc_TftKG10XTZEe7-6" value="测量（measure）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-210" y="550" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tEKggc_TftKG10XTZEe7-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tEKggc_TftKG10XTZEe7-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="70" y="770" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tEKggc_TftKG10XTZEe7-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="tEKggc_TftKG10XTZEe7-7" target="tEKggc_TftKG10XTZEe7-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tEKggc_TftKG10XTZEe7-50" value="实现" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="tEKggc_TftKG10XTZEe7-49">
+          <mxGeometry x="-0.1726" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tEKggc_TftKG10XTZEe7-7" value="迭代（learn）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="550" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tEKggc_TftKG10XTZEe7-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="tEKggc_TftKG10XTZEe7-8" target="tEKggc_TftKG10XTZEe7-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tEKggc_TftKG10XTZEe7-12" value="推进" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="tEKggc_TftKG10XTZEe7-10">
+          <mxGeometry x="-0.2216" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tEKggc_TftKG10XTZEe7-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tEKggc_TftKG10XTZEe7-8" target="tEKggc_TftKG10XTZEe7-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tEKggc_TftKG10XTZEe7-45" value="首要" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="tEKggc_TftKG10XTZEe7-44">
+          <mxGeometry x="0.157" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tEKggc_TftKG10XTZEe7-8" value="构建（build）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-430" y="550" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tEKggc_TftKG10XTZEe7-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="tEKggc_TftKG10XTZEe7-9" target="tEKggc_TftKG10XTZEe7-94">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-300" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tEKggc_TftKG10XTZEe7-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tEKggc_TftKG10XTZEe7-9" target="tEKggc_TftKG10XTZEe7-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tEKggc_TftKG10XTZEe7-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.583;entryY=0.008;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="tEKggc_TftKG10XTZEe7-9" target="tEKggc_TftKG10XTZEe7-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tEKggc_TftKG10XTZEe7-9" value="MVP（最小可行性产品）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-200" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tEKggc_TftKG10XTZEe7-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="tEKggc_TftKG10XTZEe7-14" target="tEKggc_TftKG10XTZEe7-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tEKggc_TftKG10XTZEe7-14" value="明确产品目标" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-630" y="820" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tEKggc_TftKG10XTZEe7-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="tEKggc_TftKG10XTZEe7-15" target="tEKggc_TftKG10XTZEe7-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tEKggc_TftKG10XTZEe7-15" value="定义产品的用户行为路径" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-450" y="820" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tEKggc_TftKG10XTZEe7-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tEKggc_TftKG10XTZEe7-16" target="tEKggc_TftKG10XTZEe7-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tEKggc_TftKG10XTZEe7-16" value="功能优先级排序" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-280" y="820" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tEKggc_TftKG10XTZEe7-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tEKggc_TftKG10XTZEe7-17" target="tEKggc_TftKG10XTZEe7-19">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-35" y="940" />
+              <mxPoint x="70" y="940" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tEKggc_TftKG10XTZEe7-25" value="数据分析" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="tEKggc_TftKG10XTZEe7-24">
+          <mxGeometry x="0.6702" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tEKggc_TftKG10XTZEe7-57" value="反馈" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="tEKggc_TftKG10XTZEe7-24">
+          <mxGeometry x="-0.1572" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tEKggc_TftKG10XTZEe7-17" value="产品原型" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-95" y="820" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tEKggc_TftKG10XTZEe7-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.4;entryY=0.986;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=none;" edge="1" parent="1" source="tEKggc_TftKG10XTZEe7-27" target="tEKggc_TftKG10XTZEe7-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tEKggc_TftKG10XTZEe7-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tEKggc_TftKG10XTZEe7-18" target="tEKggc_TftKG10XTZEe7-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tEKggc_TftKG10XTZEe7-32" value="方案" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="tEKggc_TftKG10XTZEe7-31">
+          <mxGeometry x="-0.2577" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tEKggc_TftKG10XTZEe7-18" value="产品经理或运营人员" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-10" y="1380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tEKggc_TftKG10XTZEe7-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tEKggc_TftKG10XTZEe7-19" target="tEKggc_TftKG10XTZEe7-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tEKggc_TftKG10XTZEe7-55" value="隐含" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="tEKggc_TftKG10XTZEe7-54">
+          <mxGeometry x="-0.4787" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tEKggc_TftKG10XTZEe7-19" value="&lt;span style=&quot;color: rgb(18, 18, 18); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Helvetica Neue&amp;quot;, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;Source Han Sans SC&amp;quot;, &amp;quot;Noto Sans CJK SC&amp;quot;, &amp;quot;WenQuanYi Micro Hei&amp;quot;, sans-serif; font-size: medium; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;数据看板&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="1230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tEKggc_TftKG10XTZEe7-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tEKggc_TftKG10XTZEe7-20" target="tEKggc_TftKG10XTZEe7-17">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="520" y="770" />
+              <mxPoint x="-35" y="770" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tEKggc_TftKG10XTZEe7-34" value="优化" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="tEKggc_TftKG10XTZEe7-33">
+          <mxGeometry x="-0.734" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tEKggc_TftKG10XTZEe7-20" value="开发人员" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="980" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tEKggc_TftKG10XTZEe7-27" value="统计" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="25" y="1330" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tEKggc_TftKG10XTZEe7-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.4;entryY=0.986;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;" edge="1" parent="1" source="tEKggc_TftKG10XTZEe7-18" target="tEKggc_TftKG10XTZEe7-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="50" y="1380" as="sourcePoint" />
+            <mxPoint x="48" y="1289.16" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tEKggc_TftKG10XTZEe7-37" value="构建" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-150" y="850" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tEKggc_TftKG10XTZEe7-40" value="推进" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-340" y="860" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tEKggc_TftKG10XTZEe7-41" value="推进" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-510" y="860" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tEKggc_TftKG10XTZEe7-43" value="迭代" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="70" y="670" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tEKggc_TftKG10XTZEe7-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tEKggc_TftKG10XTZEe7-48" target="Z29zKsFdyH_NHhmtxofu-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="310" y="620" />
+              <mxPoint x="170" y="620" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tEKggc_TftKG10XTZEe7-61" value="最终满足" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="tEKggc_TftKG10XTZEe7-60">
+          <mxGeometry x="0.3143" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tEKggc_TftKG10XTZEe7-48" value="产品价值" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="550" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tEKggc_TftKG10XTZEe7-51" value="潜在用户需求" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="820" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tEKggc_TftKG10XTZEe7-53" value="存在" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="245" y="860" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tEKggc_TftKG10XTZEe7-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tEKggc_TftKG10XTZEe7-56">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="1040" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tEKggc_TftKG10XTZEe7-59" value="蕴含" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="tEKggc_TftKG10XTZEe7-58">
+          <mxGeometry x="-0.4108" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tEKggc_TftKG10XTZEe7-56" value="用户建议和反馈" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="1010" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tEKggc_TftKG10XTZEe7-63" value="解决问题" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="370" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tEKggc_TftKG10XTZEe7-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="tEKggc_TftKG10XTZEe7-9" target="tEKggc_TftKG10XTZEe7-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-140" y="470" />
+              <mxPoint x="40" y="470" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tEKggc_TftKG10XTZEe7-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="tEKggc_TftKG10XTZEe7-9" target="tEKggc_TftKG10XTZEe7-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-140" y="470" />
+              <mxPoint x="-370" y="470" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tEKggc_TftKG10XTZEe7-74" value="手段" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="tEKggc_TftKG10XTZEe7-73">
+          <mxGeometry x="-0.8715" relative="1" as="geometry">
+            <mxPoint y="24" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tEKggc_TftKG10XTZEe7-75" value="核心思想" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-322.5" y="355" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tEKggc_TftKG10XTZEe7-76" value="线性化" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tEKggc_TftKG10XTZEe7-77" value="不可逆" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tEKggc_TftKG10XTZEe7-78" value="&lt;div style=&quot;margin: 0px; padding: 0px; font-family: &amp;quot;PingFang SC&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; font-size: 14px; text-align: left; background-color: rgb(238, 238, 238);&quot; data-slate-key=&quot;bnymH&quot; data-slate-node=&quot;element&quot; class=&quot;slate-element-paragraph slate-block ng-star-inserted&quot;&gt;&lt;span style=&quot;margin: 0px; padding: 0px;&quot; data-slate-node=&quot;text&quot; class=&quot;ng-star-inserted&quot;&gt;瀑布开发缺点：&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;margin: 0px; padding: 0px; font-family: &amp;quot;PingFang SC&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; font-size: 14px; text-align: left; background-color: rgb(238, 238, 238);&quot; data-slate-key=&quot;bnymH&quot; data-slate-node=&quot;element&quot; class=&quot;slate-element-paragraph slate-block ng-star-inserted&quot;&gt;&lt;span style=&quot;margin: 0px; padding: 0px;&quot; data-slate-node=&quot;text&quot; class=&quot;ng-star-inserted&quot;&gt;1.各个阶段的划分完全固定，阶段之间产生大量的文档，极大地增加了工作量。&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;margin: 0px; padding: 0px; font-family: &amp;quot;PingFang SC&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; font-size: 14px; text-align: left; background-color: rgb(238, 238, 238);&quot; data-slate-key=&quot;SBHNH&quot; data-slate-node=&quot;element&quot; class=&quot;slate-element-paragraph slate-block ng-star-inserted&quot;&gt;&lt;span style=&quot;margin: 0px; padding: 0px;&quot; data-slate-node=&quot;text&quot; class=&quot;ng-star-inserted&quot;&gt;2.由于开发模型是线性的，用户只有等到整个过程的末期才能见到开发成果，从而增加了开发风险。&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;margin: 0px; padding: 0px; font-family: &amp;quot;PingFang SC&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; font-size: 14px; text-align: left; background-color: rgb(238, 238, 238);&quot; data-slate-key=&quot;KAMZR&quot; data-slate-node=&quot;element&quot; class=&quot;slate-element-paragraph slate-block ng-star-inserted&quot;&gt;&lt;span style=&quot;margin: 0px; padding: 0px;&quot; data-slate-node=&quot;text&quot; class=&quot;ng-star-inserted&quot;&gt;3.通过过多的强制完成日期和里程碑来跟踪各个项目阶段。&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;margin: 0px; padding: 0px; font-family: &amp;quot;PingFang SC&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; font-size: 14px; text-align: left; background-color: rgb(238, 238, 238);&quot; data-slate-key=&quot;paPQi&quot; data-slate-node=&quot;element&quot; class=&quot;slate-element-paragraph slate-block ng-star-inserted&quot;&gt;&lt;span style=&quot;margin: 0px; padding: 0px;&quot; data-slate-node=&quot;text&quot; class=&quot;ng-star-inserted&quot;&gt;4.瀑布模型的突出缺点是不适应用户需求的变化。&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-810" y="1190" width="640" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="tEKggc_TftKG10XTZEe7-79" value="规模化" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tEKggc_TftKG10XTZEe7-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="tEKggc_TftKG10XTZEe7-1" target="tEKggc_TftKG10XTZEe7-76">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="240" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tEKggc_TftKG10XTZEe7-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="tEKggc_TftKG10XTZEe7-1" target="tEKggc_TftKG10XTZEe7-77">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tEKggc_TftKG10XTZEe7-84" value="拥有" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="150" y="360" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tEKggc_TftKG10XTZEe7-101" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="tEKggc_TftKG10XTZEe7-94" target="tEKggc_TftKG10XTZEe7-96">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tEKggc_TftKG10XTZEe7-102" value="针对" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="tEKggc_TftKG10XTZEe7-101">
+          <mxGeometry x="-0.1073" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tEKggc_TftKG10XTZEe7-94" value="敏捷，精益" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-460" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tEKggc_TftKG10XTZEe7-95" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="tEKggc_TftKG10XTZEe7-96" target="tEKggc_TftKG10XTZEe7-98">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tEKggc_TftKG10XTZEe7-96" value="市场需求" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-695" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tEKggc_TftKG10XTZEe7-97" value="不明确" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-980" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tEKggc_TftKG10XTZEe7-98" value="多变" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-980" y="385" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tEKggc_TftKG10XTZEe7-99" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="tEKggc_TftKG10XTZEe7-96" target="tEKggc_TftKG10XTZEe7-97">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tEKggc_TftKG10XTZEe7-100" value="拥有" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-770" y="355" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tEKggc_TftKG10XTZEe7-105" value="&lt;div&gt;What is MVP？&lt;br&gt;&lt;/div&gt;&lt;div&gt;MVP （最小化可实行产品，Minimum Viable Product）是 Eric Ries 在《精益创业》中关于「精益创业」（Lean Startup）的核心思想，意思是用最快、最简明的方式建立一个可用的产品原型，&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;通过这个最简单的原型来测试产品是否符合市场预期，并通过不断的快速迭代来修正产品，最终适应市场需求。&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1040" y="990" width="1040" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="tEKggc_TftKG10XTZEe7-106" value="When do we need it ?•&lt;br&gt;1.需求不明确&lt;br&gt;2.市场需求多变&lt;br&gt;3.前期定位，团队初创&lt;br&gt;4.需要可持续交付" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-660" y="1070" width="140" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

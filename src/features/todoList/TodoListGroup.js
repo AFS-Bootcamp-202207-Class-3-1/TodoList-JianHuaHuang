@@ -18,7 +18,7 @@ function TodoListGroup(props){
             dispatch(initInputContentList(data))
         });
 
-    },[])
+    },[dispatch])
 
     return (
         <>
